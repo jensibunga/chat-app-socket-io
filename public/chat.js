@@ -19,7 +19,8 @@ btn.addEventListener('click', function(){
     message: message.value,
     handle: handle.value
   });
-  message.innerHTML = "";
+  
+  message.value = ""; // set the value to empty
 });
 
 message.addEventListener('keypress', function(){
@@ -30,7 +31,7 @@ message.addEventListener('keypress', function(){
 
 socket.on('chat', function(data){
   feedback.innerHTML = "";
-  output.innerHTML += '<p><strong>' + data.handle + ':</strong>' + data.message + '</p>';
+  output.innerHTML += '<p><strong>' + data.handle + ':</strong> ' + data.message + '</p>';
 });
 
 socket.on('typing', function(data){
