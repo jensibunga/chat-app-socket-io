@@ -19,6 +19,7 @@ btn.addEventListener('click', function(){
     message: message.value,
     handle: handle.value
   });
+  message.innerHTML = "";
 });
 
 message.addEventListener('keypress', function(){
