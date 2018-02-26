@@ -2,7 +2,7 @@
 
 ### DESCRIPTION
 
-After completing the mandatory challenge in [Restart Network](https://restart.network/) I learned new technology that uses realtime experience for users. I followed Websocket IO tutorial that allows me to create the demo app. This application will allow different users to chat with each other in realtime.
+After completing the mandatory challenge in [Restart Network](https://restart.network/) I learned a new technology that uses realtime experience for users. I followed Websocket IO tutorial that allows me to create the demo app. This application will allow different users to chat with each other in realtime.
 
 ### TECHNOLOGY USE
 
